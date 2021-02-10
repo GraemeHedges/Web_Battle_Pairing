@@ -1,0 +1,8 @@
+  <% if !@random_names %>
+  <form action="/named-cat" method="post">
+  <%# name = name needs to match params symbol %>
+    <input type="text" name="name"> 
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+  <% end %>
